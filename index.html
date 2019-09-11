@@ -14,7 +14,7 @@
 
         <form>
             <h3>Search Parameters</h3>
-            
+
             <!--search term-->
             <div class="form-group">
                 <label for="inputSearch">Search Terms</label>
@@ -40,12 +40,13 @@
                 <input class="form-control" id="endYear">
             </div>
 
-            <button type="submit" class="btn btn-secondary">Search</button>
-            <button type="reset" class="btn btn-secondary">Clear Results</button>
+            <button type="submit" class="btn btn-secondary" id="search">Search</button>
+            <button type="reset" class="btn btn-secondary" id="clear">Clear Results</button>
         </form>
 
         <div class="container">
             <h3>Top Articles</h3>
+            <div class="col-md-12 results"></div>
         </div>
     </body>
 
