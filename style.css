@@ -16,16 +16,18 @@ h3 {
     font-size: 14px;
     background-color: black;
     color: white;
+    width: 100%;
 }
 
 .container {
-    margin: 50px;
+    
     border-color: black;
     border-style: solid;
     border-width: 1px;
     padding: 10px;
+    
 }
 
 .results {
-    width: 100px;
+    width: 900px;
 }
