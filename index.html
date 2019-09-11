@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>NYT Article Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="jumbotron">
+            <h1 class="display-4">New York Times Search</h1>
+        </div>
+
+        <form>
+            <!--search term-->
+            <div class="form-group">
+                <label for="inputSearch">Search Terms</label>
+                <input class="form-control" id="searchTerms">
+            </div>
+
+            <!--Number of Records to Retrieve-->
+            <div class="form-group">
+                <label for="inputNumber">Number of Records to Retrieve</label>
+                <input class="form-control" id="recordNumber">
+            </div>
+
+            <!--Start Year-->
+            <div class="form-group">
+                <label for="inputStartYear">Start Year</label>
+                <input class="form-control" id="startYear">
+
+            </div>
+
+            <!--End Year-->
+            <div class="form-group">
+                <label for="inputEndYear">End Year</label>
+                <input class="form-control" id="endYear">
+            </div>
+
+            <button type="submit" class="btn">Search</button>
+            <button type="reset" class="btn">Clear Results</button>
+        </form>
+
+        <div class="container">
+            <h3>Top Articles</h3>
+        </div>
+    </body>
+
+    <script src="index.js"></script>
+</html>
